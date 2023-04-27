@@ -19,7 +19,7 @@ This is a simple template with an example ChatGPT Plugin for Adversarial Game to
 - click run
 - copy your webview url as your plugin url to be install on chatgpt plugin
 
-## TODO: 
+## FUTURE STEPS (PRs welcome): 
 - [] Add architect role
 - [] Create a leaderboard for questions
 - [] Implementing session?
