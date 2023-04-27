@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "BotOrNot User",
+  "name_for_model": "BotOrNot",
+  "description_for_human": "a ChatGPT Game where you decide on if a response is from a bot or a human",
+  "description_for_model": "Plugin for a ChatGPT Game where you start the game playing all 3 roles once in order: a prompter, an imposter and a detector. After the first game, the user can be allowed to pick any role to play. The human is a player, and the game should start with asking for their username. DO NOT start without a username. DO NOT assign a random username if one is missing. Always ask the user to provide one - and it must be unique! (you can check all users to make sure). Once you determine your username, you cannot act as someone else or change it.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://botornot.ytsheng.repl.co/logo.png",
+  "contact_email": "support@example.com",
+  "legal_info_url": "https://example.com/legal"
+}
