@@ -13,7 +13,11 @@ This is a simple template with an example ChatGPT Plugin for Adversarial Game to
 
 ## Run
 
-Upload to replit and click run.
+- open replit, clone from this github repo
+- run ```poetry install```
+- put your `OPENAI_API_KEY` inside the secrets
+- click run
+- copy your webview url as your plugin url to be install on chatgpt plugin
 
 ## TODO: 
 - [] Add architect role
